@@ -1,6 +1,6 @@
- deploy:
-   needs: test
-    
+deploy:
+    needs: test
+
     permissions:
       contents: write
       pages: write     
